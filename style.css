@@ -6,12 +6,14 @@
 :root{
     --fonte-logo: "Slabo 27px", serif;
     --fonte-normal: "Roboto", sans-serif;
-    --cor1: rgb(150, 33, 33);
+    --cor1: rgb(180, 45, 45);
     --cor2: rgb(61, 61, 61);
 }
 body{
     margin: 0px;
     padding: 0px;
+    background: black url(imagens/gym.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 header{
     display: flex;
@@ -39,4 +41,56 @@ header a:hover{
     color: var(--cor1);
     font-size: 1.4em;
     font-weight: bolder;
+}
+#escolha{
+    color: white ;
+    font-family: var(--fonte-logo);
+    padding: 20px;
+}
+#escolha h2{
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.348);
+    text-align: center;
+    font-size: 2.2em;
+}
+#planos{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: var(--fonte-normal);
+}
+div{
+    background-color: var(--cor2);
+    padding: 20px;
+    border-radius: 15px;
+}
+div h3{
+    color: var(--cor1);
+    font-size: 1.5em;
+    text-align: center;
+}
+div p{
+    margin: 0px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+div ul{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 110px;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-logo);
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor1);
+}
+footer a:hover{
+    color: rgb(246, 93, 93);
 }
