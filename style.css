@@ -6,7 +6,7 @@
 :root{
     --fonte-logo: "Slabo 27px", serif;
     --fonte-normal: "Roboto", sans-serif;
-    --cor1: rgb(150, 33, 33);
+    --cor1: rgb(180, 45, 45);
     --cor2: rgb(61, 61, 61);
 }
 body{
@@ -51,4 +51,42 @@ header a:hover{
     text-shadow: 1px 1px rgba(0, 0, 0, 0.348);
     text-align: center;
     font-size: 2.2em;
+}
+#planos{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: var(--fonte-normal);
+}
+div{
+    background-color: var(--cor2);
+    padding: 20px;
+    border-radius: 15px;
+}
+div h3{
+    color: var(--cor1);
+    font-size: 1.5em;
+    text-align: center;
+}
+div p{
+    margin: 0px;
+}
+div ul{
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 110px;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-logo);
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor1);
+}
+footer a:hover{
+    color: rgb(246, 93, 93);
 }
