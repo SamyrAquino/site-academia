@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width:720px){
+@media screen and (max-width:850px){
     header a{
         display: block;
         flex-direction: column;
