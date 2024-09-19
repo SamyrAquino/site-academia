@@ -71,9 +71,13 @@ div h3{
 }
 div p{
     margin: 0px;
+    font-weight: bolder;
+    font-size: 20px;
 }
 div ul{
     padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
 }
 footer{
     background-color: black;
